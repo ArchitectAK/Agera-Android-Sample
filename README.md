@@ -1,7 +1,19 @@
 # Agera-Android-Sample
 Learn Agera for Android with Examples
 
-## I am learning, you too learn. lets connect to learn
+
+# Observable, Updatable, Supplier, Receiver
+
+The foundation of Agera is a set of very simple interfaces including: `Observable`, `Updatable`, `Supplier` and `Receiver`:
+
+* `Observable` => Something that can be observed for changes and stores a list of updatable objects. When a change occurs, the updatables are poked
+* `Updatable` => Called when an event has occurred. Its `update()` method will be called when the class it observes changes, but can also be called manually to force an update.
+* `Supplier` => Something that supplies data when the `get()` method is called. In this case, "Data" can be anything.
+* `Receiver` => Something that can receive (and normally store) a value send to it via `accept()`.
+
+
+
+## let's connect to learn together
 - [Twitter](https://twitter.com/KumarAnkitRKE)
 - [Github](https://github.com/AnkitDroidGit)
 - [LinkedIn](https://www.linkedin.com/in/kumarankitkumar/)
