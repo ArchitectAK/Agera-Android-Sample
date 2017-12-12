@@ -10,6 +10,12 @@ The foundation of Agera is a set of very simple interfaces including: `Observabl
 * `Updatable` => Called when an event has occurred. Its `update()` method will be called when the class it observes changes, but can also be called manually to force an update.
 * `Supplier` => Something that supplies data when the `get()` method is called. In this case, "Data" can be anything.
 * `Receiver` => Something that can receive (and normally store) a value send to it via `accept()`.
+* `Repository` => The most important concept in Agera is the Repository. Repositories receive, supply, and store data and emit updates. The interfaces Observable, Supplier and Receiver are combined into two types of repositories:
+
+    Repository can replace Observable and Supplier
+    MutableRepository can replace Observable, Supplier and Receiver
+    
+    This replacement is shown in [Agera-Repositories](https://github.com/AnkitDroidGit/Agera-Repositories) project.
 
 
 
