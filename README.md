@@ -13,8 +13,8 @@ The foundation of Agera is a set of very simple interfaces including: `Observabl
 * `Repository` => The most important concept in Agera is the Repository. Repositories receive, supply, and store data and emit updates. The interfaces Observable, Supplier and Receiver are combined into two types of repositories:
 
 
-        `"Repository"` can replace `Observable` and `Supplier`
-        `"MutableRepository"` can replace `Observable`, `Supplier` and `Receiver`
+        Repository can replace Observable and Supplier
+        MutableRepository can replace Observable, Supplier and Receiver
     
 ###### This replacement is shown in [Agera-Repositories](https://github.com/AnkitDroidGit/Agera-Repositories) project.
 
